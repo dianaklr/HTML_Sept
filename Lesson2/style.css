@@ -1,0 +1,36 @@
+body{
+    /*margin: 0;*/
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #486b3c;
+    border-radius: 50%;
+    /*opacity: 0.5;*/
+    border: 10px solid lightblue;
+    box-shadow: 15px 10px 39px -3px rgba(110,110,110,1);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+#redBox{
+    background-color: #72225b;
+}
+.red, .yellow{
+    opacity: 0.5;
+}
+
+
+
+/* tag - 1, class - 10, id - 100, вбудована стилізація - 1000*/
+
+
+
+
+
