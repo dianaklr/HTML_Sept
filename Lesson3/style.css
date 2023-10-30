@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background: #51964C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 75vw;
+    height: 60vh;
+    background: #DEBB76;
+}
+article{
+    width: 25vw;
+    height: 60vh;
+    background: #3E507E;
+}
+div{
+    display: flex;
+}
+footer{
+    width: 100vw;
+    height: 20vh;
+    background: #CF6262;
+}
