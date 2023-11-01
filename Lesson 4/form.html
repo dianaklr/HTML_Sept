@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        sup{
+            color: red;
+        }
+        /*input{*/
+        /*    width: 200px;*/
+        /*    height: 50px;*/
+        /*    padding: 30px;*/
+        /*}*/
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Введіть своє ім'я</label>
+        <input type="text" id="name" name="username" placeholder="Anna" required><sup>*</sup>
+
+        <label for="password">Введіть свій пароль</label>
+        <input type="password" id="password" name="password" placeholder="qwerty123" required><sup>*</sup>
+
+        <label for="email">Введіть свій email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="age">Введіть свій email</label>
+        <input type="number" id="age" name="age" min="18" max="100">
+
+        <label>Стать:</label>
+        <label> <input type="radio" name="gender" value="female"> Жіноча </label>
+
+        <label> <input type="radio" name="gender" value="male"> Чоловіча </label>
+
+        <label>
+            <input type="checkbox" name="newsletter"> Підписатись на новини
+        </label>
+
+        <label for="c">Країна:</label>
+        <select id="c">
+            <option value=" ">Оберіть країну</option>
+            <option value="ua">Україна</option>
+            <option value="usa">США</option>
+            <option value="ca">Канада</option>
+            <option value="uk">Великобританія</option>
+        </select>
+
+        <label for="phone"> Телефон:</label>
+        <select id="phone">
+            <optgroup label="Apple">
+                <option value="IPhoneX">IPhone X</option>
+                <option value="IPhoneXR">IPhone XR</option>
+                <option value="IPhoneXS">IPhone XS</option>
+            </optgroup>
+            <optgroup label="Samsung">
+                <option>Samsung X</option>
+                <option>Samsung XR</option>
+                <option>Samsung XS</option>
+            </optgroup>
+        </select>
+        <label>Введіть свій коментар:<br>
+        <textarea rows="4" cols="20" placeholder="text "></textarea>
+        </label>
+
+        <input type="time">
+
+        <input type="reset" value="Тиць">
+        <input type="submit" value="Відправ">
+    </form>
+</body>
+</html>
