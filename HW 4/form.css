@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkcyan;
+    margin: 0;
+}
+form{
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.top{
+    width: 100%;
+    height: 20%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 145, 145);
+    border-radius: 10px 10px 0 0 ;
+    font-size: 30px;
+}
+.sectionForInput{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password]{
+    width: 70%;
+    padding: 1.5% 1%;
+    margin-top: 25px;
+}
+.sectionForInput div{
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=submit]{
+    width: 80px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: rgb(158, 201, 201);
+}
+.yes{
+  appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    margin-bottom: -3px;
+    border-radius: 2px;
+}
+.yes:checked{
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACl0lEQVR4nO2YO2gUQRjHf1ER9QKihY34BsHCVxAtFButDWgsBAvBCFqp2PnCKF4lPjAimMLCJ5JCwc6ADwISwUIEBU0MggiCFtGLGNGcDHwHx2W/b2ZuN9jMDwaOu/n+O7/dnZndg0QikUgkEonE/2AKsAkoA/3AMDAKVIBB4BnQBWwAWgLyqkrzccKoPe0r3gq8NAIa2wtgyySIHDHqzlmFU4HuCIHGdkkyihA5bNSctySmAQ9zSNRar9yWeUQOGf0v4KFcgEStHcshsg8YV/pe881HN2H/FijyB1jdhMh+Q+JqyKJy3zjQV+CUDGw2UALWyIo1YtTdjRTpNCR6QiSWGQFvgUVG7WLgnXFVFgaK7DHuiOvKnJvAASVgDFgZUL9K+mZldAaI7BbprN9uGKvgBO4pITdDA+SAWRm3AkQ0iTsxEo7XSlB7REa7kvEqQERrm4nksxJkzY1GFigZn3KIDAKtMSLa/T0rImOGkvErh0hVVqtgvishMyMySkrGSE6RKrAjdBDDSkD90uljiZLxIVCkD/ii/Oa+nxcyiAElYHuEyE4lYyBApE+u/jajz4OQQVxWim9HiPQqGd0BIvVzscfoV78nZdKhFP4G1gZIrDf2go4AkXpagSGl3w9gqTWQOfLWl1U85CleDnxUaiuSHSPi2GicmH7fJqndXrUzcQZok9WpJJ/PGiegKpk0IYJka/2P4ll1rEHFtlF5oGxWZLrxqj0mJ1Jlb4EiWRMzRsSxAvip1Lzx7XNXCpBwL0AUIOI4aNRdxMNx4/3EauPy1w0FirQAj4zjuX97TNYBjyMknstqQ8EijvnAN+OhdC4BuEl1EngKvJcFoSKfn8gVMCdeASKOXUZ9zMadSCQSiUQikSCef9kkwDHfd1cBAAAAAElFTkSuQmCC");
+    background-size: cover;
+}
+a{
+    color: coral;
+    text-decoration: none;
+}
