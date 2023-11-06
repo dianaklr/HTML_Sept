@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ol{
+            list-style-type: none;
+        }
+
+        ol.list>li{
+            color: crimson;
+        }
+        ol>li::after{
+              content: "!";
+              color: cornflowerblue;
+              font-size: 20px;
+          }
+        ol>li::before{
+            content: " ";
+            background-image: url("16612.jpeg");
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            background-size: cover;
+            margin-right: 5px;
+        }
+        ol>li::first-letter{
+           font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<ol class="list">
+    <li>Lorem ipsum dolor.</li>
+    <li>Doloremque eligendi, eum.</li>
+    <li>Non similique, totam?</li>
+    <li>Architecto dolorem, esse.</li>
+    <li>Nostrum, quisquam, totam!
+    </li>
+</ol>
+</body>
+</html>
