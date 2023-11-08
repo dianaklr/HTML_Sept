@@ -1,0 +1,15 @@
+@media screen  and (max-width: 480px){
+    .pink, .green, header, footer{
+        width: 100vw;
+        height: 10vh;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        width: 100vw;
+        height: 50vh;
+        background-color: #6aa9dc;
+    }
+}

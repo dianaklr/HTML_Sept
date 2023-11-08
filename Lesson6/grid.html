@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            border: 1px solid;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 10% 80% 10%;
+            grid-template-rows: 1fr 3fr 1fr;
+            /*grid-template-rows: repeat(3, 1fr);*/
+        }
+        main>div:nth-child(3){
+            background-color: cornflowerblue;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div><p>1</p></div>
+        <div><p>2</p></div>
+        <div><p>3</p></div>
+        <div><p>4</p></div>
+        <div><p>5</p></div>
+        <div><p>6</p></div>
+        <div><p>7</p></div>
+        <div><p>8</p></div>
+        <div><p>9</p></div>
+    </main>
+</body>
+</html>
