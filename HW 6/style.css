@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.a{
+    height: 25vh;
+    background-color: #835b5b;
+}
+
+.b{
+    width: 75vw;
+    height: 75vh;
+    background-color: #4d4f30;
+}
+.c{
+    width: 25vw;
+    height: 75vh;
+    background-color: #babe7a;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+

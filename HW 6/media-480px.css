@@ -1,0 +1,15 @@
+@media screen and (min-width: 100px) and (max-width: 480px){
+    .a, .c{
+        width: 98vw;
+        height: 18vh;
+        margin: 1vh 1vw;
+    }
+    .b{
+        width: 100vw;
+        height: 60vh;
+    }
+
+
+
+
+}

@@ -1,0 +1,21 @@
+@media screen and (min-width: 100px) and (max-width: 480px){
+    .a, .f{
+        width: 100vw;
+        height: 20vh;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .b-c-d-e{
+        width: 100vw;
+        height: 60vh;
+    }
+    .b{
+        width: 100vw;
+        height: 40vh;
+    }
+    .c, .d, .e{
+        height: 20vh;
+    }
+
+}
